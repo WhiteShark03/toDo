@@ -105,31 +105,30 @@ ul {
   border: 2px solid rgb(233, 251, 255);
 }
 
-	@media (min-width: 576px) {
-	body {
-		   background: url('https://t4.ftcdn.net/jpg/05/21/95/85/360_F_521958580_kNDeJSIB0VUVqJ0n9fUwwubwHTRkn2VS.jpg') no-repeat; 
-	}
+@media only screen and (max-width: 768px) {
+  body {
+    height: 100vh;
+  }
+
+  .App {
+    width: 90%;
+    margin: 10% auto;
+  }
+
+  input {
+    background-size: contain; 
+  }
 }
- 
-/* Средние девайсы («таблетки», >= 768px) */
-@media (min-width: 768px) {
-	body {
-		   background: url('https://t4.ftcdn.net/jpg/05/21/95/85/360_F_521958580_kNDeJSIB0VUVqJ0n9fUwwubwHTRkn2VS.jpg') no-repeat; 
-	}
-}
- 
-/* Большие девайсы (десктопы, >= 992px) */
-@media (min-width: 768px) {
-	body {
-		   background: url('https://t4.ftcdn.net/jpg/05/21/95/85/360_F_521958580_kNDeJSIB0VUVqJ0n9fUwwubwHTRkn2VS.jpg') no-repeat; 
-	}
-}
- 
-/* Экстрабольшие девайсы (большие десктопы, >= 1200px) */
-@media (min-width: 1200px) {
-	body {
-		   background: url('https://t4.ftcdn.net/jpg/05/21/95/85/360_F_521958580_kNDeJSIB0VUVqJ0n9fUwwubwHTRkn2VS.jpg') no-repeat; 
-	}
+
+@media only screen and (max-width: 320px) {
+  .App {
+    width: 95%;
+    margin: 10% auto;
+  }
+
+  input {
+    background-size: contain; 
+  }
 }
 
 .todo-headerBtn {
