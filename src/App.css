@@ -136,6 +136,21 @@ ul {
   }
 }
 
+@media only screen and (max-width: 250px) {
+  body {
+    background-size: auto 100%;
+  }
+
+  .App {
+    width: 95%;
+    margin: 10% auto;
+  }
+
+  input {
+    background-size: auto 100%; 
+  }
+}
+
 .todo-headerBtn {
   color: #6011ce; 
   width: 50px;
