@@ -105,50 +105,31 @@ ul {
   border: 2px solid rgb(233, 251, 255);
 }
 
-@media only screen and (max-width: 480px) {
-  body {
-    height: auto;
-    margin-top: 0;
-  }
-
-  .App {
-    width: 90%;
-    margin: 10% auto;
-  }
-
-  input {
-    background-size: contain; 
-  }
+	@media (min-width: 576px) {
+	body {
+		   background: url('https://t4.ftcdn.net/jpg/05/21/95/85/360_F_521958580_kNDeJSIB0VUVqJ0n9fUwwubwHTRkn2VS.jpg') no-repeat; 
+	}
 }
-
-@media only screen and (max-width: 320px) {
-  body {
-    background-size: auto 100%;
-  }
-
-  .App {
-    width: 95%;
-    margin: 10% auto;
-  }
-
-  input {
-    background-size: auto 100%; 
-  }
+ 
+/* Средние девайсы («таблетки», >= 768px) */
+@media (min-width: 768px) {
+	body {
+		   background: url('https://t4.ftcdn.net/jpg/05/21/95/85/360_F_521958580_kNDeJSIB0VUVqJ0n9fUwwubwHTRkn2VS.jpg') no-repeat; 
+	}
 }
-
-@media only screen and (max-width: 250px) {
-  body {
-    background-size: auto 100%;
-  }
-
-  .App {
-    width: 95%;
-    margin: 10% auto;
-  }
-
-  input {
-    background-size: auto 100%; 
-  }
+ 
+/* Большие девайсы (десктопы, >= 992px) */
+@media (min-width: 768px) {
+	body {
+		   background: url('https://t4.ftcdn.net/jpg/05/21/95/85/360_F_521958580_kNDeJSIB0VUVqJ0n9fUwwubwHTRkn2VS.jpg') no-repeat; 
+	}
+}
+ 
+/* Экстрабольшие девайсы (большие десктопы, >= 1200px) */
+@media (min-width: 1200px) {
+	body {
+		   background: url('https://t4.ftcdn.net/jpg/05/21/95/85/360_F_521958580_kNDeJSIB0VUVqJ0n9fUwwubwHTRkn2VS.jpg') no-repeat; 
+	}
 }
 
 .todo-headerBtn {
